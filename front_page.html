@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Page Title</title>
+
+<style>
+body {
+  color: white;
+  background-color: crimson;
+  margin: 0;
+
+}
+h2 {
+  text-align: center;
+}
+
+p {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#img_container {
+   text-align: center;
+}
+
+#img_container img {
+  border: 2px solid gold;
+
+  width: 60%;
+  
+}
+
+#header {
+  background-color: black;
+  padding: 30px;
+  
+
+}
+
+#footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+#header h2 {
+  text-align: left;
+}
+
+#nav {
+  list-style-type: none;
+  
+}
+
+#nav li {
+   display: inline-block;
+   padding: 10px 18px;
+   background-color: white;
+   color: black;
+   cursor: pointer;
+  
+}
+
+#nav li:hover {
+  background-color: gold;
+}
+
+#gallary {
+ width: 60%;
+ margin-left: auto;
+ margin-right: auto;
+}
+#images {
+  list-style-type: none;
+
+}
+
+#images li {
+  border: 2px solid black;
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+
+}
+
+.right {
+  float: right;
+  margin: 2px;
+}
+
+@media only screen and (max-width: 600px) {
+  #nav li {
+    display: block;
+    
+  }
+  
+  #nav li.right {
+    margin-top: 10px;
+    float: none;
+    display: block;
+    border: 2px solid white;
+  }
+}
+</style>
+</head>
+<body>
+
+<div id="header">
+ <ul id="nav">
+  <li>Home</li>
+  <li>About</li>
+  <li>Contact</li>
+  <li class="right">Sign</li>
+  
+  <li class="right" >Login</li>
+ </ul>
+</div>
+
+<h2>Hello World</h2>
+<p>Qui recusandae dolores veniam excepturi quia ut exercitationem saepe sed eum dolor et autem dicta odit omnis neque non voluptas eum autem dolor ratione inventore autem qui aut eum est sint omnis saepe non est maxime ratione sunt et dolores odit qui ut aperiam et aliquid soluta consequatur non.</p>
+
+<div id="img_container">
+<img src="https://tpc.googlesyndication.com/simgad/14362383055909843455?sqp=4sqPyQQ7QjkqNxABHQAAtEIgASgBMAk4A0DwkwlYAWBfcAKAAQGIAQGdAQAAgD-oAQGwAYCt4gS4AV_FAS2ynT4&rs=AOga4qkt1X1BOFxhQGwu6XdoD46MMaEDSA">
+</div>
+
+
+<div id="gallary">
+<ul id="images">
+<li><img src="https://www.w3schools.com/css/rwd_desktop.png" width="120" height="120"></li>
+<li><img src="https://www.w3schools.com/css/rwd_desktop.png" width="120" height="120"></li>
+<li><img src="https://www.w3schools.com/css/rwd_desktop.png" width="120" height="120"></li>
+</ul>
+</div>
+
+<div id="footer">
+<p>Developed By Mahmoud Hegazy</p>
+</div>
+</body>
+</html>
